@@ -1,6 +1,4 @@
-#include <iostream>
-using namespace std;
-//change the file twise
+#include "heder.h"
 int main (){
 	cout << "Hello my master!!!\n";
 	return 0;
