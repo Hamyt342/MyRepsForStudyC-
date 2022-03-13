@@ -1,4 +1,4 @@
 logs/.
 .[ao]
 *.log
-.out
+*.out
