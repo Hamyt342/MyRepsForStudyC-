@@ -1,6 +1,3 @@
-passwd
 logs/.
 .[ao]
 *.log
-.gitignore
-github_token.txt
