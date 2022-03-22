@@ -2,3 +2,4 @@ logs/.
 .[ao]
 *.log
 *.out
+status.txt
