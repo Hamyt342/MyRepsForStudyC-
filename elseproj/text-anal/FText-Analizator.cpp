@@ -9,7 +9,7 @@ void Find (string text, string test){
 					"]\nc = [" << c << 
 					"] k = [" << k << "] [" <<
 					k << " = " << c << "]\n";
-                        	issame++;
+				issame++;
                 	}
 			j+=1;
 		}
