@@ -1,1 +1,1 @@
-Еhis is my program, it simulates the economic system
+This is my programs, they are do different fonction.
