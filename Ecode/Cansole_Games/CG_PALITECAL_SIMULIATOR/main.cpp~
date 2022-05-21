@@ -1,0 +1,5 @@
+#include "haders.h"
+int main(){
+	cout << "All is ok my master\n";
+	return 0;
+}
