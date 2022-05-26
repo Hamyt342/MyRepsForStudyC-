@@ -48,8 +48,9 @@ class Game{
 					industry_level[i] = val;
 					level_count -= industry_level[i];
 				} else if (val > level_count){
-					cout << "You available level is " << level_count << 
-						"and val is " << val << "\nYou can't enter this\n";
+					cout << "You available level is " << 
+						level_count << "and val is " << 
+						val << "\nYou can't enter this\n";
 				}
 			}
 		}

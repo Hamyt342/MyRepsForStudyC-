@@ -34,7 +34,7 @@ void jana_element_engizy(Ahash* root, Ahash* elem){
   }
 }
 //Ahashti korsety
-void ahash_korsety(Ahash* cur_elem){
+/*void ahash_korsety(Ahash* cur_elem){
 	if (cur_elem->left != NULL){
 		ahash_korsety(cur_elem->left);
 	}
@@ -42,6 +42,18 @@ void ahash_korsety(Ahash* cur_elem){
 	if (cur_elem->right != NULL){
 		ahash_korsety(cur_elem->right);
 	}
+}*/
+int tabs = 0;
+void ahash_korsety(Ahash* cur_elem)
+{
+        if (!cur_elem) return;
+        tabs += 5;
+        ahash_korsety(cur_elem->left);
+        for (int i = 0; i < tabs; i++) cout << " ";
+        cout << cur_elem->info.san << endl;
+        ahash_korsety(cur_elem->right);
+        tabs-= 5;
+        return;
 }
 int main(){
 	int san, choise, iter = 1;
